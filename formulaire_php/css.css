@@ -1,0 +1,96 @@
+
+body{
+    max-width: auto;
+    text-align: center;
+    font: 0.9em "trebuchet ms", helvetica, arial, sans-serif;
+    background-color: white;
+    word-wrap: break-word;
+
+}
+nav{
+  letter-spacing: 3px;
+  font-size: 1.1em;
+}
+nav a:hover{
+  color: #ffff00;
+
+}
+nav a{
+  color:#ffc107;
+  text-decoration: none;
+}
+.block_service{
+  margin-bottom: 3%;
+}
+.description_portfolio{
+  text-align: center;
+}
+#form {
+  
+  letter-spacing: 2px;
+  }
+#form a{
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 575.98px) {
+
+  #form {padding-bottom: 800px;}
+  #form .maps iframe{
+    width: auto;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+    .image_team{
+    padding-bottom: 3%;
+     }
+
+   #form {padding-bottom: 800px;}
+
+   #form .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+  .image_team{
+    padding:3%;
+  }
+
+
+  #form{padding-bottom: 350px;}
+
+  #form .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #form{
+    padding-bottom: 200px;
+     
+    }
+  #contact{
+    max-width: 98%;
+  }
+  .banniere{
+    max-width: 100%;
+  }
+
+  #form .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#form a{
+  color: #fff;
+  text-decoration: none;
+    
+}
